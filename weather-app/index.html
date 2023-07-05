@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <title>Weather App</title>
+</head>
+
+<body class="content-body">
+    <main class="box-content" box-content>
+        <div class="search-area">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Enter Your Location" search-text>
+            <i class="fa-solid fa-magnifying-glass" id="lupa" lupa></i>
+        </div>
+        <div class="notfound" notfound>
+            <img src="imgs/404.png" alt="Tipos" notfound-image >
+            <span class="notfound-text">Oops, Not Found! :/</span>
+        </div>
+        <div class="main-content" main-content>
+            <img src="imgs/cloud.png" alt="Tipos" image>
+            <span class="graus" graus>10°C</span>
+            <span class="type-weather" type-weather>Clouds</span>
+        </div>
+        <div class="box-details" box-details>
+            <div class="details">
+                <i class="fa-solid fa-water"></i>
+                <span class="text-details" text-details-h>40%</span>
+                <span class="type-details">Humidity</span>
+            </div>
+            <div class="details">
+                <i class="fa-solid fa-wind"></i>
+                <span class="text-details" text-details-ws>10km/h</span>
+                <span class="type-details">Wind Speed</span>
+            </div>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/adb48c5fc0.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
